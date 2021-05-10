@@ -26,9 +26,6 @@ print(e2.name)
 print(e2._subject)                          # Private attribute which Can be accessed, but shouldn't
 
 
-# e1.details("Spam", 4)
-# e2.details("Promotional", 5)
-
 e1.send()
 e2.receive()
 
