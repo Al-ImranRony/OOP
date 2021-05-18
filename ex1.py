@@ -1,6 +1,6 @@
 
 class BankAcc:
-    def set_details(self, name, bal=0):
+    def __init__(self, name, bal=0):
         self.name = name
         self.bal = bal
 
@@ -14,11 +14,8 @@ class BankAcc:
     def deposit(self, amount):
         self.bal += amount
 
-acc1 = BankAcc()
-acc1.set_details("Babu", 2000)
-
-acc2 = BankAcc()
-acc2.set_details("Rony", 4)
+acc1 = BankAcc("Babu", 2000)
+acc2 = BankAcc("Rony", 4)
 
 acc1.display()
 acc2.display()
