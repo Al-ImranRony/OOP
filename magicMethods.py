@@ -1,0 +1,2 @@
+# All about magic methods
+
